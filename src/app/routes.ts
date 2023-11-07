@@ -1,10 +1,11 @@
 import { Routes } from '@angular/router';
+import { AppComponent } from './app.component';
 
 const route: Routes = [
     {
         path: '',
-        component: ,
-        title: ''
+        component: AppComponent,
+        title: 'Home'
     },
 ];
 
