@@ -1,0 +1,6 @@
+ /* レイアウト */
+ .container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr); /* 12列のグリッドシステム */
+    gap: 20px;
+  }

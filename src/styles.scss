@@ -1,17 +1,35 @@
 /* General */
 body {
+    background-color: #ffffff;
+    font-family: 'Noto Sans JP', sans-serif;
     max-width: 60vw;
     margin-right: auto;
     margin-left: auto;
 }
 
-
+  /* フォント */
+h1, h2, h3 {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
     
 /* Common */
 a {
+    color: #000000;
     text-decoration: none;
 }
 
 li {
     list-style: none;
+}
+
+  /* エフェクト */
+a:hover {
+    color: #00bcd4; 
+}
+  
+  /* レスポンシブデザイン */
+@media screen and (max-width: 768px) {
+    /* 画面幅が768px以下の場合のスタイル */
+    /* ここに適切なスタイルを追加してください */
 }

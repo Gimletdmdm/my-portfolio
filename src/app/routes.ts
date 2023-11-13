@@ -4,11 +4,12 @@ import { BlogComponent } from './blog/blog.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { ProfileComponent } from './profile/profile.component';
 import { ContactComponent } from './contact/contact.component';
+import { HomeComponent } from './home/home.component';
 
 const route: Routes = [
     {
         path: '',
-        component: AppComponent,
+        component: HomeComponent,
         title: 'Home'
     },
     {
