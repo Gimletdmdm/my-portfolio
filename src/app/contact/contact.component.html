@@ -1,1 +1,21 @@
 <h1>Contact</h1>
+<div class="form-container">
+    <mat-form-field>
+        <mat-label>お名前</mat-label>
+        <input matInput placeholder="山田 太郎">
+    </mat-form-field> 
+    <mat-form-field>
+        <mat-label>メールアドレス</mat-label>
+        <input matInput placeholder="example@mail.com">
+    </mat-form-field> 
+    <mat-form-field>
+        <mat-label>題名</mat-label>
+        <input matInput>
+    </mat-form-field>
+    <mat-form-field class="textarea">
+        <mat-label>お問い合わせ内容</mat-label>
+        <textarea matInput></textarea>
+    </mat-form-field>
+</div>
+
+<button mat-raised-button color="primary">送信</button>
