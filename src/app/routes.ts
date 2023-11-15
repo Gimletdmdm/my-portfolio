@@ -5,6 +5,7 @@ import { PortfolioComponent } from './portfolio/portfolio.component';
 import { ProfileComponent } from './profile/profile.component';
 import { ContactComponent } from './contact/contact.component';
 import { HomeComponent } from './home/home.component';
+import { BlogDetailsComponent } from './blog/blog-details/blog-details.component';
 
 const route: Routes = [
     {
@@ -31,6 +32,11 @@ const route: Routes = [
         path: 'contact',
         component: ContactComponent,
         title: 'contact'
+    },
+    {
+        path: 'blog-detail',
+        component: BlogDetailsComponent,
+        title: 'blog-detail'
     }
 ];
 
