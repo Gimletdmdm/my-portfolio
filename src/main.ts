@@ -1,5 +1,5 @@
 import { bootstrapApplication, provideProtractorTestingSupport } from '@angular/platform-browser';
-import { environment } from 'src/environments/environment';
+
 import { AppComponent } from './app/app.component';
 import { provideRouter } from '@angular/router';
 import route from './app/routes';
