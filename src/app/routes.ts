@@ -37,6 +37,11 @@ const route: Routes = [
         path: 'blog-detail',
         component: BlogDetailsComponent,
         title: 'blog-detail'
+    },
+    {
+        path: '**',
+        redirectTo: '/',
+        pathMatch: 'full'
     }
 ];
 
